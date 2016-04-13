@@ -1,3 +1,4 @@
+package ru.lesson.lessons;
 /**
  * Created by Oleg on 12.04.2016.
  */
@@ -19,6 +20,14 @@ public class Calculator {
     public void add(int... params) {
         for (Integer param : params) {
             this.result += param;
+        }
+    }
+
+    public void div(int... args){
+        if (args.length>0){
+
+        } else {
+
         }
     }
 
